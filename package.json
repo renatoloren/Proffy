@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "build": "mkdir docs && xcopy src\\views\\index.html docs\\index.html /Y && xcopy src\\styles docs\\styles /E /I /Y && xcopy src\\js docs\\js /E /I /Y"
+    "build": "mkdir docs && copy src\\views\\index.html docs\\index.html && xcopy public docs /E /I /Y"
   },
   "keywords": [],
   "author": "",
